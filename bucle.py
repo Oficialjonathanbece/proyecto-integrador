@@ -8,4 +8,4 @@ while True:
     if ord(caracter) == "UP":
         break
 
-    
+
