@@ -1,15 +1,15 @@
 import os
 
-def imprimir_numero(numero):
+def delete_terminal(numero):
   os.system('cls' if os.name == 'nt' else 'clear')
 
   print(numero)
 
 numero = 0
 while True:
-  tecla = input()
+  caracter = input()
 
-  if tecla == 'n':
+  if caracter ==  "\x00\x48":
     numero += 1
 
   if numero == 50:
